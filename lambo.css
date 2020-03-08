@@ -1,0 +1,82 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body,
+html {
+    min-height: 100%;
+    color: aliceblue;
+}
+
+body {
+    background-image: url(logo.jpg);
+    background-size: auto;
+    background-repeat: repeat;
+    margin: 2px;
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    color: aliceblue;
+    margin-bottom: 35px;
+}
+
+h3 {
+    color: aliceblue;
+}
+
+p {
+    font-family: 'Orbitron', sans-serif;
+    color: aliceblue;
+    padding: 17px 0;
+    margin: 10px 5px;
+}
+
+img {
+    max-width: 1320px;
+    height: auto;
+    margin: 10px auto;
+    display: block;
+    transition: all 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+a {
+    color: aliceblue;
+    background-color: rgba(17, 17, 46, 0.534);
+    padding: 10px;
+    border-radius: 7px;
+    transition: all 1s;
+}
+
+a:hover {
+    color: teal;
+}
+
+span {
+    font-size: 50px;
+}
+
+footer {
+    color: aliceblue;
+    text-align: center;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
