@@ -12,7 +12,8 @@
     margin: 0 auto;
 }
 
-h1 {
+
+/* h1 {
     position: relative;
     top: -70px;
     font-family: 'Candal', sans-serif;
@@ -21,7 +22,7 @@ h1 {
 
 h1 {
     transform: translateY(100px);
-}
+} */
 
 a {
     font-size: 20px;
