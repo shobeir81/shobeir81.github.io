@@ -1,16 +1,15 @@
-/* body {
-    background-image: url(cars.jpg);
-    background-size: 1500px 650px;
-    background-repeat: no-repeat;
-} */
+body {
+    background-color: aqua;
+}
 
-.goh {
+
+/* .goh {
     position: fixed;
     max-width: 100%;
     height: auto;
     object-fit: contain;
     margin: 0 auto;
-}
+} */
 
 
 /* h1 {
