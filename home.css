@@ -4,6 +4,10 @@ body {
     background-size: 100% auto;
 }
 
+nav {
+    background-image: url();
+}
+
 
 /* .goh {
     position: fixed;

@@ -1,4 +1,32 @@
 h1 {
-    font-size: 100px;
-    color: black;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    margin: 0px;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    background: #f9f9f9;
+    font-size: 24px;
+    padding: 25px;
+}
+
+.parallax {
+    background-image: url(bugatti1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+.parallax2 {
+    background-image: url(bugatti2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
 }
