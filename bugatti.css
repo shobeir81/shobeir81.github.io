@@ -31,7 +31,7 @@ h1 {
     height: 500px;
 }
 
-@media all and (max-width:400px) {
+@media all and (max-width:500px) {
     .parallax {
         background-size: 480px auto;
     }
