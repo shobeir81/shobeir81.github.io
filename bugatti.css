@@ -30,3 +30,12 @@ h1 {
     background-attachment: fixed;
     height: 500px;
 }
+
+@media all and (max-width:400px) {
+    .parallax {
+        background-size: 480px auto;
+    }
+    .parallax2 {
+        background-size: 480px auto;
+    }
+}
