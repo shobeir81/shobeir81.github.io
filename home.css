@@ -118,3 +118,11 @@ h5 {
     background-repeat: repeat;
     /* transform: rotate(360deg); */
 }
+
+@media all and (max-width:500px) {
+    body {
+        background-image: url(color.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+}

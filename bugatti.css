@@ -33,9 +33,14 @@ h1 {
 
 @media all and (max-width:500px) {
     .parallax {
-        background-size: 480px auto;
+        background-size: 490px auto;
+        height: 200px;
     }
     .parallax2 {
-        background-size: 480px auto;
+        background-size: 490px auto;
+        height: 200px;
+    }
+    .container {
+        font-size: 15px;
     }
 }
