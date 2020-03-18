@@ -8,7 +8,7 @@ h1 {
 .container {
     max-width: 960px;
     margin: 0 auto;
-    background: #f9f9f9;
+    /* background: #f9f9f9; */
     font-size: 24px;
     padding: 25px;
 }
@@ -33,6 +33,7 @@ h1 {
 
 @media all and (max-width:500px) {
     body {
+        background: black;
         color: blanchedalmond;
     }
     .parallax {
@@ -42,9 +43,5 @@ h1 {
     .parallax2 {
         background-size: 490px auto;
         height: 200px;
-    }
-    .container {
-        font-size: 15px;
-        background: black;
     }
 }
