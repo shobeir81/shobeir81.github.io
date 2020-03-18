@@ -32,6 +32,9 @@ h1 {
 }
 
 @media all and (max-width:500px) {
+    body {
+        color: blanchedalmond;
+    }
     .parallax {
         background-size: 490px auto;
         height: 200px;
@@ -42,5 +45,6 @@ h1 {
     }
     .container {
         font-size: 15px;
+        background: black;
     }
 }
