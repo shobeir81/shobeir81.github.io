@@ -137,7 +137,7 @@ h5 {
         transition: none;
     }
     
-    .ford:hover {
+    /* .ford:hover {
         transform: rotate(360deg);
         background-image: url(ford.jpg);
         background-size: 240px;
@@ -145,5 +145,5 @@ h5 {
         background-position-y: -25px;
         background-repeat: repeat;
         box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.815);
-    }
+    } */
 }
