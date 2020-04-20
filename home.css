@@ -116,7 +116,7 @@ h5 {
 }
 @media all and (max-width:500px) {
     body {
-        background-image: url(background.jpg);
+        background-image: url(www.jpg);
         background-repeat: no-repeat;
         background-size: 100% ;
     }
