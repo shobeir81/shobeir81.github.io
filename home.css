@@ -1,42 +1,10 @@
+
 body {
-    background-image: url(color.jpg);
+    background-image: url(cars.jpg);
     background-repeat: no-repeat;
     background-size: 100% auto;
 }
 
-nav {
-    background-image: url();
-}
-
-
-/* .goh {
-    position: fixed;
-    max-width: 100%;
-    height: auto;
-    object-fit: contain;
-    margin: 0 auto;
-} */
-
-
-/* h1 {
-    position: relative;
-    top: -70px;
-    font-family: 'Candal', sans-serif;
-    transition: all 1s;
-}
-
-h1 {
-    transform: translateY(100px);
-} */
-
-a {
-    font-size: 20px;
-}
-
-a:visited {
-    color: rgba(0, 0, 0, 0);
-    border: none;
-}
 
 h5 {
     font-size: 12px;
@@ -82,6 +50,7 @@ h5 {
     border-radius: 400px;
     text-align: center;
     cursor: pointer;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.219);
     transition: all 1s;
 }
 
@@ -92,6 +61,7 @@ h5 {
     background-position-y: -26px;
     background-repeat: repeat;
     transform: rotate(-360deg);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.815);
 }
 
 .BG {
@@ -106,6 +76,7 @@ h5 {
     border-radius: 400px;
     text-align: center;
     cursor: pointer;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.219);
     transition: all 1.1s;
 }
 
@@ -116,13 +87,63 @@ h5 {
     background-position-x: -62px;
     background-position-y: -65px;
     background-repeat: repeat;
-    /* transform: rotate(360deg); */
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.815);
+}
+.ford {
+    position: absolute;
+    padding: 50px 50px;
+    margin: 10px 450px;
+    background-image: url(ford1.jpg);
+    background-size: 200px;
+    background-position-x: -93px;
+    background-position-y: 0px;
+    background-repeat: repeat;
+    border-radius: 400px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.219);
+    transition: all 1.1s;
 }
 
+.ford:hover {
+    transform: rotate(360deg);
+    background-image: url(ford.jpg);
+    background-size: 240px;
+    background-position-x: -74px;
+    background-position-y: -25px;
+    background-repeat: repeat;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.815);
+}
 @media all and (max-width:500px) {
     body {
         background-image: url(background.jpg);
         background-repeat: no-repeat;
-        background-size: 100% auto;
+        background-size: 100% ;
+    }
+    .ford {
+        transform: translate(-450%,120%);
+        /* position: absolute; */
+        padding: 50px 50px;
+        margin: 10px 450px;
+        background-image: url(ford1.jpg);
+        background-size: 200px;
+        background-position-x: -93px;
+        background-position-y: 0px;
+        background-repeat: repeat;
+        border-radius: 400px;
+        text-align: center;
+        cursor: pointer;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.219);
+        transition: none;
+    }
+    
+    .ford:hover {
+        transform: rotate(360deg);
+        background-image: url(ford.jpg);
+        background-size: 240px;
+        background-position-x: -74px;
+        background-position-y: -25px;
+        background-repeat: repeat;
+        box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.815);
     }
 }

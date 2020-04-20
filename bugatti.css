@@ -4,6 +4,17 @@ h1 {
     margin: 0px;
     padding: 0;
 }
+div a{
+    margin-left: 1rem;
+    color: aliceblue;
+    background-color: rgba(8, 8, 128, 0.856);
+    padding: 10px;
+    border-radius: 7px;
+    transition: all 1s;
+}
+div a:hover {
+    color: rgb(177, 0, 0);
+}
 
 .container {
     max-width: 960px;
